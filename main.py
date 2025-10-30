@@ -1,15 +1,17 @@
-# Add appropriate comments...such as your name, the date...
+# Daniel Millman
+# CSIS 110
+# 10/29/25
 
 import random
 
-# makeID takes two ...
-# and returns...
+# makeID takes two arguments
+# and returns a new ID
 def makeID(first, last):
     # Extract the first inital of their first name
 
     first_name = first[0]
 
-    # Extract the first five ...
+    # Extract the first five of last name
 
     last_name = last[0:5]
 
@@ -23,7 +25,7 @@ def makeID(first, last):
     return ID
 
 
-# main prompts the user ....
+# main prompts the user for first and last name
 def main():
     # Ask for their first name
 
